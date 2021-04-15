@@ -1,0 +1,13 @@
+.person {
+  width: 60%;
+  margin: 15px auto;
+  padding: 20px;
+  border: 1px solid gray;
+  box-shadow: 0px 2px 2px lightgray;
+}
+
+@media (min-width: 576px) {
+  .person {
+    width: 450px;
+  }
+}
